@@ -165,8 +165,8 @@ body {
 }
 
 .resume .resume_right ul li .date {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -175,7 +175,7 @@ body {
 }
 
 .resume .resume_right ul li:last-child .info {
-  margin-bottom: 0;
+  margin-bottom: 20;
 }
 
 .resume .resume_right .resume_work ul li:before,
@@ -197,7 +197,7 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 115px;
+  height: 555px;
   background: #0bb5f4;
 }
 
