@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Javier Rico</title>
-<meta name="description" content="Detailed description for search engines." />
-<meta name="author" content="Javier Rico" />
+<title>Javier Rico's readings list</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noodp" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <script type="text/javascript"></script>
-<link rel="alternate" type="application/atom+xml" title="Javier Rico" href="blog/feed.atom" />
-<link rel="alternate" type="application/rss+xml" title="Javier Rico" href="blog/feed.rss" />
+<link rel="alternate" type="application/atom+xml" title="Javier Rico" href="../blog/feed.atom" />
+<link rel="alternate" type="application/rss+xml" title="Javier Rico" href="../blog/feed.rss" />
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:300,300i,700" />
 
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<link rel="icon" type="image/jpeg" href="portrait.jpg" />
-<link rel="apple-touch-icon" type="image/jpeg" href="portrait.jpg" />
-<link rel="apple-touch-icon-precomposed" type="image/jpeg" href="portrait.jpg" />
-<link rel="fluid-icon" type="image/jpeg" href="portrait.jpg" />
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+<link rel="icon" type="image/jpeg" href="../portrait.jpg" />
+<link rel="apple-touch-icon" type="image/jpeg" href="../portrait.jpg" />
+<link rel="apple-touch-icon-precomposed" type="image/jpeg" href="../portrait.jpg" />
+<link rel="fluid-icon" type="image/jpeg" href="../portrait.jpg" />
 
 <style type="text/css">
 html {
@@ -126,8 +124,8 @@ src: url(data:font/opentype;base64,d09GRgABAAAAABysABEAAAAALgQAAQAAAAAAAAAAAAAAA
 <body>
 <div class="header">
 <div class="profile">
-<a class="portrait" href=""><img src="portrait.jpg" /></a>
-<div class="name"><a href="">Javier Rico</a></div>
+<a class="portrait" href="../"><img src="../portrait.jpg" /></a>
+<div class="name"><a href="../">Javier Rico</a></div>
 <div class="bio">Unlocking mysteries in the Digital Realm.</div>
 <div class="links">
 <a class="icon" target="_blank" href="https://github.com/jvirico" title="GitHub"><span class="symbol">&#xe237;</span></a>
@@ -135,50 +133,25 @@ src: url(data:font/opentype;base64,d09GRgABAAAAABysABEAAAAALgQAAQAAAAAAAAAAAAAAA
 </div>
 <nav class="navigation">
 <ul class="tabs" id="tabs">
-<li class="tab"><a class="active" href="">Blog</a></li>
-<li class="tab"><a href="readings_list">Readings</a></li>
+<li class="tab"><a href="../">Blog</a></li>
+<li class="tab"><a class="active" href="../readings_list">Readings</a></li>
 </ul>
 </nav>
 </div>
 <div class="item">
-<div class="card">
-<div class="date">Jul 1, 2023</div>
-<h1><a href="blog/2023-07-01-welcome/">Welcome</a></h1>
-<div class="content">
-
-<p>
-I like minimalist.
-</p> <p>
-</p>
+    <div class="card">
+        <!-- <div class="logo"><img src="book.jpeg" width="160" height="160" /></div> -->
+        <h1>Readings List</h1>
+        <div class="content">
+            <p>
+                <h2>July 2023</h2>
+                <li><a href="https://www.nationalgeographic.com/premium/article/colossal-gravitational-waves-found-for-the-first-time">Colossal gravitational waves found. </a>#nanograv #black-hole</li>
+                <li><a href="https://www.kitchensoap.com/2013/09/30/learning-from-failure-at-etsy/">Learning from Failure at Etsy. </a>#post-mortem</li>
+                <li><a href="https://arxiv.org/abs/2303.12733v1">On the De-duplication of LAION-2B. </a>#paper #data</li>
+                <li><a href="https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/">On being a senior engineer. </a>#article</li>
+            </p>
+        </div>
+    </div>
 </div>
-<div class="more"><a href="blog/2023-07-01-welcome/">Read more&hellip;</a></div></div>
-</div>
-<script type="text/javascript">
-function updateStream() {
-    var element = document.getElementById("stream");
-    if (element) {
-      var rect = element.getBoundingClientRect();
-      var threshold = 0;
-      if (rect.bottom > threshold && (window.innerHeight - rect.top) > threshold) {
-        var url = element.getAttribute("title");
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", url, true);
-        xmlHttp.onreadystatechange = function () {
-            if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-                element.insertAdjacentHTML('beforebegin', xmlHttp.responseText);
-                element.parentNode.removeChild(element);
-                updateStream();
-            }
-        };
-        xmlHttp.send(null);
-      }
-    }
-}
-updateStream();
-window.addEventListener('scroll', function(e) {
-    updateStream();
-});
-</script>
-
 </body>
 </html>
