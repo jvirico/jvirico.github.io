@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source "start.cfg"
+arguments="${build} --port ${port} --index-page index.html --not-found-page 404.html --redirect-map redirect.map --browse"
+python server.py ${arguments}
