@@ -14,10 +14,10 @@
 <title type="text">Welcome</title>
 <content type="html">
 &lt;p&gt;
-I like minimalist.
+Welcome to my site.
 &lt;&#x2F;p&gt;
 
-&lt;p&gt;
+&lt;!-- &lt;p&gt;
 &lt;&#x2F;p&gt;</content>
 <link rel="alternate" type="text/html" href="https://lutzroeder.github.io/minimal/default/blog/2023-07-01-welcome/" title="Welcome" />
 </entry>
